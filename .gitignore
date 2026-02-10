@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Power BI (binary; view report via link in README)
+*.pbix
+*.pbix..pbix
+*.pbix~
+
+# Misnamed file (actually PNG data; use Page 1/Page 2 PDFs in repo)
+PowerBI_Harrods_D1.pdf
+
+# Large or binary reference data (not used by generator)
+datasets/UK Postcodes.zip
+datasets/*.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
